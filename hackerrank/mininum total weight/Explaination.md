@@ -1,17 +1,19 @@
-# Explanation of the Code
+# Explanation of the Code for Minimum Total Weigth
 
+Please find the [solution code](./Solution.java) to this problem
 ## Goal
 We are given:
 - An array of `weights` (e.g., chocolate weights).
 - An integer `d` representing the number of operations.
 
 Each operation:
-1. Take the **largest weight** available.
+1. Take the **one chocolate**.
 2. "Eat" half of it (integer division).
-3. Put the **remaining half** back.
+3. Put the **remaining weight** back.
 
 After `d` operations, we return the **sum of all weights left**.
 
+The goal is that after `d` days, you must have the minimum weight remaining from eating the chocolates.
 ---
 
 ## Step 1: Priority Queue Setup
