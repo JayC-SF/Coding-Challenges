@@ -1,2 +1,27 @@
+# Compiled / build output
 *.class
+*.jar
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+
+# Go
+go.sum
+/dist/
+/bin/
+
+# .NET
+bin/
+obj/
+
+# Editors / OS
+.vscode/
+.idea/
 *.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
